@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:white;
+    font-family: 'PT Sans Narrow';
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.template {
+    width: 40vw;
+    height: 60vh;
+    display: grid;
+    grid-template-areas: 'green red' 
+   ' blue yellow';
+    border-radius: 100%;
+    grid-gap: 10px;
+    box-shadow: 5px 10px 15px rgb(78, 78, 78);
+}
+
+.green {
+    grid-area: green;
+    background:linear-gradient(to left,rgb(92, 196, 92), green);
+    opacity: 0.5;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 50%;
+    border-bottom: 5px solid rgb(56, 53, 53);
+    border-right: 3px solid rgb(56, 53, 53);
+    cursor: pointer;
+}
+
+.red {
+    grid-area: red;
+    background: linear-gradient(to right, rgb(240, 98, 98),red);
+    opacity: 0.5;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom: 5px solid rgb(56, 53, 53);
+    border-left: 3px solid rgb(56, 53, 53);
+    cursor: pointer;
+}
+
+.blue {
+    grid-area: blue;
+    background: linear-gradient(to left, rgb(94, 94, 231),blue);
+    opacity: 0.5;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 50%;
+    border-right: 5px solid rgb(56, 53, 53);
+    border-bottom: 25px solid rgb(56, 53, 53);
+    cursor: pointer;
+}
+
+.yellow {
+    grid-area: yellow;
+    background:linear-gradient(to right,rgb(245, 245, 95),yellow);
+    opacity: 0.5;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-left: 5px solid rgb(56, 53, 53);
+    border-bottom: 25px solid rgb(56, 53, 53);
+    cursor: pointer;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.box__alert {
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 3px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    color:black;
+    font-size: 1.3rem;
+}
+
+.box__alert button {
+    width: 50%;
+    background-color:rgb(58, 143, 245);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 5px;
+    cursor: pointer;
+    font-family: 'PT Sans Narrow';
+    font-size: 1.3rem;
+}
+
+.level {
+    color:black;
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.level h1 {
+    margin-bottom: 0px;
+}
+
+.level h2 {
+    background-color: rgb(58, 143, 245);
+    color: black;
+    padding: 2px 6px;
+    margin-top: 0px;
+    border-radius: 50%;
+}

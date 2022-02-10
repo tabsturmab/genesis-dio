@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+    
+    .container{
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .template {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .box__alert {
+        width: 45vw;
+        height: 15vh;
+    }
+
+    .level {
+        margin: 0px;
+    }
+}
