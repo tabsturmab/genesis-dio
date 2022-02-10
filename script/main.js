@@ -85,7 +85,7 @@ let displayNextLevel = () => {
 }
 
 let gameOver = () =>{
-    let divGameOver = `<p>Você Errou!</p>`
+    let divGameOver = `<p>Infelizmente, você Errou!</p>`
     +`<button onclick=playGame()>Reiniciar</button>`;
 
     document.querySelector('.template').style.filter = 'blur(2px)';
