@@ -1,4 +1,4 @@
-# Jogo-Genesis
+# Jogo-Genius
 Recriando o jogo Genius com Javascript, desafio proposto no Bootcamp Eduzz Fullstack. 🎮
 
 ## 🔧 Melhorias:
