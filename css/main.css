@@ -33,7 +33,7 @@ main {
 
 .green {
     grid-area: green;
-    background:linear-gradient(to left,rgb(92, 196, 92), green);
+    background:linear-gradient(to left,rgb(71, 170, 71), green);
     opacity: 0.5;
     border-top-left-radius: 100%;
     border-bottom-right-radius: 50%;
@@ -55,7 +55,7 @@ main {
 
 .blue {
     grid-area: blue;
-    background: linear-gradient(to left, rgb(94, 94, 231),blue);
+    background: linear-gradient(to left, rgb(65, 65, 202),blue);
     opacity: 0.5;
     border-bottom-left-radius: 100%;
     border-top-right-radius: 50%;
@@ -66,7 +66,7 @@ main {
 
 .yellow {
     grid-area: yellow;
-    background:linear-gradient(to right,rgb(245, 245, 95),yellow);
+    background:linear-gradient(to right,rgb(226, 226, 6),rgb(240, 240, 2));
     opacity: 0.5;
     border-bottom-right-radius: 100%;
     border-top-left-radius: 50%;
@@ -97,7 +97,7 @@ main {
 
 .box__alert button {
     width: 50%;
-    background-color:rgb(58, 143, 245);
+    background-color:rgb(3, 103, 226);
     color: black;
     border: none;
     border-radius: 5px;
