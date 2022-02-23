@@ -26,7 +26,7 @@ main {
     display: grid;
     grid-template-areas: 'green red' 
    ' blue yellow';
-    border-radius: 100%;
+    border-radius: 80%;
     grid-gap: 10px;
     box-shadow: 5px 10px 15px rgb(78, 78, 78);
 }
@@ -35,7 +35,7 @@ main {
     grid-area: green;
     background:linear-gradient(to left,rgb(71, 170, 71), green);
     opacity: 0.5;
-    border-top-left-radius: 100%;
+    border-top-left-radius: 250%;
     border-bottom-right-radius: 50%;
     border-bottom: 5px solid rgb(56, 53, 53);
     border-right: 3px solid rgb(56, 53, 53);
@@ -46,7 +46,7 @@ main {
     grid-area: red;
     background: linear-gradient(to right, rgb(240, 98, 98),red);
     opacity: 0.5;
-    border-top-right-radius: 100%;
+    border-top-right-radius: 250%;
     border-bottom-left-radius: 50%;
     border-bottom: 5px solid rgb(56, 53, 53);
     border-left: 3px solid rgb(56, 53, 53);
@@ -57,7 +57,7 @@ main {
     grid-area: blue;
     background: linear-gradient(to left, rgb(65, 65, 202),blue);
     opacity: 0.5;
-    border-bottom-left-radius: 100%;
+    border-bottom-left-radius: 250%;
     border-top-right-radius: 50%;
     border-right: 5px solid rgb(56, 53, 53);
     border-bottom: 25px solid rgb(56, 53, 53);
@@ -68,7 +68,7 @@ main {
     grid-area: yellow;
     background:linear-gradient(to right,rgb(226, 226, 6),rgb(240, 240, 2));
     opacity: 0.5;
-    border-bottom-right-radius: 100%;
+    border-bottom-right-radius: 250%;
     border-top-left-radius: 50%;
     border-left: 5px solid rgb(56, 53, 53);
     border-bottom: 25px solid rgb(56, 53, 53);
@@ -97,7 +97,7 @@ main {
 
 .box__alert button {
     width: 50%;
-    background-color:rgb(3, 103, 226);
+    background-color:rgb(250, 159, 194);
     color: black;
     border: none;
     border-radius: 5px;
@@ -121,7 +121,7 @@ main {
 }
 
 .level h2 {
-    background-color: rgb(58, 143, 245);
+    background-color: rgb(58, 245, 198);
     color: black;
     padding: 2px 6px;
     margin-top: 0px;
